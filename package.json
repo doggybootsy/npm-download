@@ -1,0 +1,35 @@
+{
+  "name": "@doogybootsy/download",
+  "version": "1.0.0",
+  "description": "Easily download files in nodejs",
+  "scripts": {
+    "build": "node ./build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doggybootsy/npm-download"
+  },
+  "keywords": [
+    "download"
+  ],
+  "author": "Doggybootsy",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.1.3",
+    "esbuild": "^0.17.18"
+  },
+  "types": "./types.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "default": "./dist/index.cjs",
+    "require": "./dist/index.cjs",
+    "types": "./types.d.ts"
+  },
+  "files": [
+    "dist/index.cjs",
+    "dist/index.cjs.map",
+    "dist/index.mjs",
+    "dist/index.mjs.map",
+    "types.d.ts"
+  ]
+}
